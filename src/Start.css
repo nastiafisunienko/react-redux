@@ -1,0 +1,48 @@
+.blurred {
+    filter: blur(5px);
+    opacity: 0
+
+}
+
+.quote {
+    transition: all 2s ease;
+    font-size: 5em;
+    margin-top: 13%;
+
+}
+
+.letter {
+    color: #ffed29;
+    font-size: 3em;
+}
+
+.firstLetter {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.parrafo {
+    font-size: 0.4em;
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1%;
+
+}
+.loader p {
+    margin: 1%;
+}
+
+ul {
+    margin: 1% 8%;
+}

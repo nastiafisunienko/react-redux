@@ -1,0 +1,182 @@
+.empty {
+    font-size: 3em;
+    text-align: center;
+    margin: 9% 0% 3% 0%;
+}
+.y {
+    color: #ffed29;
+    font-family: "Oswald";
+    font-style: italic;
+    font-size: 2.5em;
+}
+.boxes {
+    display: flex;
+}
+
+.icon {
+    color: #d32f2f;
+}
+
+.ulSavedBook {
+    list-style:
+    none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.liSavedBook {
+    margin:
+    5% 3%;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      padding:
+    4%;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 250px;
+      min-width: 250px;
+}
+.liSavedBook:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+}
+.update {
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 5%;
+    font-weight: 800;
+    border: 0.5px solid white;
+    padding: 4%;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.bookStyle h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    margin: 3%;
+}
+
+.bookStyle h3 {
+    margin: 8%;
+    color: white;
+}
+
+.bookStyle div  p {
+    text-transform: lowercase;
+    margin: 7%;
+    color: #c3a56d;
+}
+.saved-div {
+    padding: 9%;
+    background: url("../public/img/img3.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.saved-div p:nth-child(2) {
+    font-size: 1.4em;
+    color: rgb(139, 18, 18);
+}
+
+.error-ms {
+    font-size: 10em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin: 16%;
+  color: red;
+}
+
+.error {
+    color: #ffed29;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: 'Oswald';
+}
+
+.book-header {
+    text-align: end;
+    font-size: 8em;
+    margin: 5%;
+    padding: 0%;
+    backdrop-filter: grayscale(8);
+    color: #ffed29;
+    font-style: italic;
+    font-family: 'Oswald';
+
+}
+.bookStyle button {
+    background-color: black;
+    outline: none;
+    border: none;
+    margin: 4%;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.delete {
+    font-size: 2em;
+    color: #d32f2f;
+    margin: 7%;
+}
+
+.form {
+    display: flex;
+  position: sticky;
+  top: 2px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  background-color: black;
+  background:url("../public/img/img1.jpg") no-repeat;
+  background-size: inherit;
+  background-attachment: fixed;
+  background-position: center;
+}
+.form fieldset {
+    color: white;
+    padding: 5%;
+    backdrop-filter: blur(44px);
+    margin: 10%;
+    border-radius: 5%;
+}
+
+.form h1 {
+    font-size: 5em;
+    font-weight: lighter;
+    margin: 6%;
+    color: #ffed29;
+}
+.form ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form ul li {
+    margin: 3%;
+    width: 100%;
+    display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form ul li input {
+    width: 60%;
+    font-size: 1.2em;
+    outline: none;
+} 
+
+.form ul li label {
+    text-transform: uppercase;
+    font-family: "Oswald";
+}

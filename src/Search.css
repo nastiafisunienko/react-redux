@@ -1,0 +1,203 @@
+.searching-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 4%;
+}
+
+.search {
+    font-size: 6em;
+    outline: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.books:hover {
+    opacity: 0.9;
+}
+.books:hover img {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.ulBook {
+    border-radius:
+    6%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.ulBook li {
+    padding:
+    8%;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      position: relative;
+      align-items: self-start;
+      justify-content: space-between;
+      margin:
+    7%;
+      min-width: 200px;
+      max-width: 200px;
+}
+
+.book-header-search {
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+    margin: 9% 0% 7% 0%;
+    padding: 6%;
+
+}
+.m {
+    color: #ffed29;
+    font-family: "Oswald";
+    font-style: italic;
+    font-size: 2.5em;
+}
+.ulBook li h1 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 7%;
+    color: white;
+    text-align: initial;
+    font-weight: bolder;
+}
+
+.ulBook li img {
+    width: 51%;
+    display: flex;
+    align-self: center;
+    margin: 9%;
+}
+
+.ulBook li p {
+    color: #afa592;
+    text-align: initial;
+}
+
+.bookmark {
+    position: absolute;
+    bottom: -47px;
+    left: 231px;
+    color: rgb(139, 18, 18);
+    font-size: 3em !important;
+}
+
+.authores {
+    display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 7%;
+}
+
+.authores p:first-child {
+  font-style: oblique;
+}
+
+.iconos {
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.5em;
+}
+
+.botones {
+    background-color: black;
+    border: none;
+}
+
+.botones svg {
+    color: white;
+}
+
+.botones:hover svg {
+    color: #8b1212;
+}
+.clicked {
+    color: #8b1212;
+}
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin:
+  16% 3% 0% 3%;
+    border-top:
+  2px dashed #ffed2b;
+}
+
+.opinion h1 {
+    font-size: 2em;
+    margin: 2%;
+}
+
+.opinion form {
+    margin: 3%;
+    border: 9px solid #eee;
+}
+.opinion form ul {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opinion form ul li {
+    margin: 1%;
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.opinion form ul li label {
+    font-family: "Oswald";
+    text-align: initial;
+    margin:2%;
+}
+
+.opinion form ul li input {
+    font-size: 1.2em;
+    outline:none;
+    padding:1%;
+    margin:1%;
+    border:3px solid #eee;
+}
+.opinion form ul li textarea {
+    resize: none;
+    outline: none;
+    font-size: 1.2em;
+    padding:1%;
+    margin:1%;
+    border:3px solid #eee;
+}
+
+.opinion form ul button {
+    font-family: "Oswald";
+    padding:
+1%;
+  border:
+none;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+}
+.error2 {
+    color: #ff0e0e;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin:
+  1%;
+    text-align: initial;
+}
+
+.opinion h2 {
+    font-size: 2em;
+    font-family: "Oswald";
+    margin: 2%;
+}

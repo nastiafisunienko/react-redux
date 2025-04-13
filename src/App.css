@@ -1,0 +1,156 @@
+* {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+}
+
+header {
+  display: flex;
+  margin: 1%;
+}
+
+header nav {
+  width: 100%;
+  align-self: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+header nav ul li a {
+  color: black;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+
+header nav ul li:nth-child(2n + 1):hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+header nav ul li:nth-child(2n + 1) a:hover {
+  color: rgb(139, 18, 18);
+  transition: all 0.5s ease;
+}
+
+
+header nav ul li:nth-child(2) {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+main ul {
+  text-align: center;
+}
+
+.parrafo {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.3em;
+  margin: 2% 6%;
+  padding: 6%;
+}
+
+.parrafoLogo {
+  color: black;
+}
+
+
+.logoSvg:hover {
+  transform: rotate(90deg);
+  transition: all 0.5s ease;
+}
+
+.logoSvg:not(:hover) {
+  transform: rotate(0deg);
+  transition:  all 0.5s ease-out;
+}
+header nav ul li:nth-child(2):hover .parrafoLogo {
+
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  color: rgb(139, 18, 18);
+}
+
+header nav ul li:nth-child(2):not(:hover) .parrafoLogo {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.footer {
+  padding: 3%;
+  text-align: center;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.footer span {
+  color: #f6f332;
+  font-size: 3em;
+  font-style: italic;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px)  {
+  header {
+    margin: 7%;
+  }
+
+  .quote {
+    font-size: 3.5em !important;
+  }
+
+  .book-header {
+    font-size: 3em !important;
+  }
+
+  .css-1g04pbp-MuiModal-root {
+    overflow: scroll !important;
+  }
+  .css-1miy0lu-MuiTypography-root {
+    font-size: 1rem !important;
+  line-height: 1 !important;
+  }
+
+  .ulBook li {
+    padding: 11% !important;
+    margin: 11% !important;
+  }
+  .form h1{
+    font-size: 2em !important; 
+  }
+  .form fieldset {
+    display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  }
+
+  .opinion h1 {
+    font-size: 1em !important;
+
+  }
+
+  .css-1sy3b69 {
+    width: 50% !important;
+    padding: 30px !important; 
+  }
+  .css-65wcaa-MuiTypography-root {
+    font-size: 0.5rem !important;
+    line-height: 1 !important;
+  }
+  
+}
+
+@media screen and (min-width: 501px) {
+  .quote {
+    font-size: 6em !important;
+  }
+
+  .css-1sy3b69 {
+    width: 83% !important;
+    padding: 43px !important;
+  }
+}
