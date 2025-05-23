@@ -16,7 +16,7 @@ export const apiLibros = createApi({
 export const apiQuotes = createApi({
 
     reducerPath: "apiQuotes",
-    baseQuery: fetchBaseQuery({baseUrl: "https://api.api-ninjas.com/v1/quotes"}),
+    baseQuery: fetchBaseQuery({baseUrl: "https://dummyjson.com/quotes"}),
 
     endpoints: (builder) => ({
         randomQuotes: builder.query({
