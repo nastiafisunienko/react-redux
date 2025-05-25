@@ -1,0 +1,38 @@
+.comments {
+    display: flex;
+    text-align: initial;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    margin: 1%;
+}
+.comments div {
+    margin: 1%;
+}
+.comments div b p {
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "Oswald";
+    margin: 9px;
+}
+
+.comments div .data {
+    color: #7e7e7e;
+}
+
+.comments .delete-btn {
+
+    color: rgb(172, 43, 43);
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.update-btn {
+    background:
+none;
+  border:
+none;
+}

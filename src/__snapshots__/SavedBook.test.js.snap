@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavedBook component makes a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bookStyle"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icon css-1umw9bq-MuiSvgIcon-root"
+      data-testid="FavoriteIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"
+      />
+    </svg>
+    <h1>
+      Book Title
+    </h1>
+    <h3>
+      Author
+    </h3>
+    <div>
+      <p>
+        Description
+      </p>
+      <img
+        alt="id1"
+        src="image.jpg"
+        style="max-width: 50%;"
+      />
+    </div>
+    <div
+      class="botones-book"
+    >
+      <button>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium delete css-1umw9bq-MuiSvgIcon-root"
+          data-testid="DeleteIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`el componente SavedBook makes a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bookStyle"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icon css-1umw9bq-MuiSvgIcon-root"
+      data-testid="FavoriteIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"
+      />
+    </svg>
+    <h1 />
+    <h3 />
+    <div>
+      <p />
+      <img
+        alt="id1"
+        style="max-width: 50%;"
+      />
+    </div>
+    <div
+      class="botones-book"
+    >
+      <button>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium delete css-1umw9bq-MuiSvgIcon-root"
+          data-testid="DeleteIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
